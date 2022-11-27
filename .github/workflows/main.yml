@@ -14,4 +14,4 @@ jobs:
         server: 185.70.72.183
         username: tiger
         password: ${{ secrets.PASS }}
-        remote_dir: "/domains/tiger-productions.be/public_html/klanten/"
+        server-dir: "/domains/tiger-productions.be/public_html/klanten/"
