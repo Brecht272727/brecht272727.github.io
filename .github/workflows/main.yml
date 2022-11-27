@@ -15,3 +15,7 @@ jobs:
         username: ${{ secrets.ftp_login }}
         password: ${{ secrets.ftp_password }}
         server-dir: ./public_html/klanten/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
