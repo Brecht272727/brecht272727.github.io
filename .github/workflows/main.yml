@@ -15,7 +15,7 @@ jobs:
       - name: 📂 Sync files
         uses: ./
         with:
-          server: 185.70.72.183
+          server: ftp.tiger-productions.be
           username: tiger
           password: ${{ secrets.PASS }}
           server-dir: "./public_html/klanten/"
